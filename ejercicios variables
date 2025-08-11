@@ -1,3 +1,5 @@
+package ejerciciosvarioables;
+
 import java.util.Scanner;
 
 public class ejerciciosvariables {
@@ -18,16 +20,13 @@ public class ejerciciosvariables {
         Scanner scanner = new Scanner(System.in);
         System.out.println("ingrese su nombre: ");
         String nombre = scanner.nextLine();
-        scanner.nextLine();
         System.out.println("ingrese su edad: ");
         int edad = scanner.nextInt();
         scanner.nextLine();
         System.out.println("ingrese su nacionalidad");
         String nacionalidad = scanner.nextLine();
-        scanner.nextLine();
         System.out.println("ingrese su ocupacion");
         String ocupacion = scanner.nextLine();
-        scanner.nextLine();
         System.out.println("ingrese su salario mensual");
         float salario = scanner.nextFloat();
 
